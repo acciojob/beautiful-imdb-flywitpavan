@@ -1,2 +1,114 @@
 
-/* Your CSS Code here. */
+/* Your CSS Code here. *//* General container for page layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Movie poster */
+.moviePic {
+    height: 400px;
+    width: 300px;
+    opacity: 0.9;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Hover effect on poster */
+.moviePic:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+/* Movie description */
+.movieDetail {
+    position: relative;
+    top: 20px;
+    width: 60%;
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design for mobile */
+@media screen and (max-width: 768px) {
+    .moviePic {
+        height: 300px;
+        width: 200px;
+    }
+
+    .movieDetail {
+        width: 90%;
+        font-size: 1em;
+    }
+}
+
+/* General container for page layout */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Movie poster */
+.moviePic {
+    height: 400px;
+    width: 300px;
+    opacity: 0.9;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Hover effect on poster */
+.moviePic:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+/* Movie description */
+.movieDetail {
+    position: relative;
+    top: 20px;
+    width: 60%;
+    text-align: center;
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design for mobile */
+@media screen and (max-width: 768px) {
+    .moviePic {
+        height: 300px;
+        width: 200px;
+    }
+
+    .movieDetail {
+        width: 90%;
+        font-size: 1em;
+    }
+}
